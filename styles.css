@@ -1,0 +1,6 @@
+#error{
+    color: red;
+    font-weight: bold;
+    opacity: 100;
+    transition: opacity 0.5s ease-in-out;
+}
