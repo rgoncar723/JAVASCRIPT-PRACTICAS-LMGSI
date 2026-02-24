@@ -20,7 +20,7 @@ let telefonosTemp = [];      // Teléfonos que se van añadiendo antes de guarda
 
 // 4. FUNCIONES DE PERSISTENCIA (localStorage + JSON + try-catch)
 function cargarAgenda() {
-    const raw = JSON.parse(localStorage.getItem(CLAVE_STORAGE));
+    const raw = localStorage.getItem(CLAVE_STORAGE);
     if(raw === null) return []; // Si no hay nada, devolvemos un array vacío
 
     try {
